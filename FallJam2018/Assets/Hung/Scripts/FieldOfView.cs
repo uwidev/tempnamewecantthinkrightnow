@@ -6,12 +6,13 @@ public class FieldOfView : MonoBehaviour {
     public float viewRadius;
     [Range(0, 360)]
     public float viewAngle;
+    public float aimTime;
 
     public LayerMask targetMask;
     public LayerMask obstacleMask;
 
     public bool playerSeen = false;
-    public Transform playerPos;
+    public Transform player;
 
     public float meshResolution;
     public int edgeResolveIterations;
@@ -19,6 +20,11 @@ public class FieldOfView : MonoBehaviour {
 
     public MeshFilter viewMeshFilter;
     Mesh viewMesh;
+
+    public bool isFiring;
+    public BulletController bullet;
+    public float bulletSpeed;
+    public Transform firePoint;
 
     void Start()
     {
@@ -59,10 +65,20 @@ public class FieldOfView : MonoBehaviour {
                 if (!Physics.Raycast(transform.position, dirToTarget, dstToTarget, obstacleMask))
                 {
                     playerSeen = true;
-                    playerPos = target;
+                    player = target;
+                    StartCoroutine("AttackCo");
                 }
             }
         }
+    }
+
+    public IEnumerator AttackCo()
+    {
+        this.GetComponent<Rigidbody>().isKinematic = true;
+        yield return new WaitForSeconds(aimTime);
+        BulletController newBullet = Instantiate(bullet, GetComponent<Rigidbody>().transform.position, GetComponent<Rigidbody>().transform.rotation) as BulletController;
+        newBullet.speed = bulletSpeed;
+        this.GetComponent<Rigidbody>().isKinematic = false;
     }
 
     void DrawFieldOfView()
