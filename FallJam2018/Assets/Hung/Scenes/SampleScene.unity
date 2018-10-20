@@ -1085,13 +1085,19 @@ MonoBehaviour:
   viewAngle: 44
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> Player Enemy Interaction
   aimTime: 1
 =======
   aimTime: 2
 >>>>>>> Player Enemy Interaction
+<<<<<<< HEAD
 =======
   aimTime: 1
 >>>>>>> Shooting and DYing
+=======
+>>>>>>> Player Enemy Interaction
   targetMask:
     serializedVersion: 2
     m_Bits: 512
@@ -1109,6 +1115,7 @@ MonoBehaviour:
   bulletSpeed: 10
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   firePoint: {fileID: 1864321392}
 =======
   firePoint: {fileID: 0}
@@ -1116,6 +1123,12 @@ MonoBehaviour:
 =======
   firePoint: {fileID: 1864321392}
 >>>>>>> Shooting and DYing
+=======
+  firePoint: {fileID: 1864321392}
+=======
+  firePoint: {fileID: 0}
+>>>>>>> Player Enemy Interaction
+>>>>>>> Player Enemy Interaction
 --- !u!54 &1525900237
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1200,12 +1213,18 @@ Transform:
   - {fileID: 656004334}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: 1864321392}
 =======
 >>>>>>> Player Enemy Interaction
 =======
   - {fileID: 1864321392}
 >>>>>>> Shooting and DYing
+=======
+  - {fileID: 1864321392}
+=======
+>>>>>>> Player Enemy Interaction
+>>>>>>> Player Enemy Interaction
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 35.708, z: 0}
@@ -1217,6 +1236,7 @@ NavMeshAgent:
   m_GameObject: {fileID: 1525900235}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Enabled: 0
 =======
   m_Enabled: 1
@@ -1224,6 +1244,12 @@ NavMeshAgent:
 =======
   m_Enabled: 0
 >>>>>>> Shooting and DYing
+=======
+  m_Enabled: 0
+=======
+  m_Enabled: 1
+>>>>>>> Player Enemy Interaction
+>>>>>>> Player Enemy Interaction
   m_AgentTypeID: 0
   m_Radius: 0.5
   m_Speed: 3
@@ -1277,6 +1303,40 @@ MonoBehaviour:
   m_Enabled: 1
 =======
 >>>>>>> Shooting and DYing
+  m_EditorHideFlags: 0
+<<<<<<< HEAD
+  m_Script: {fileID: 11500000, guid: 33367cf92d2c19c4c8ef4e4442c50018, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+=======
+  m_Script: {fileID: 11500000, guid: eb2f9ccbf20df084db123d023d6d6a07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  follow: {fileID: 1010009843}
+  agent: {fileID: 1525900244}
+--- !u!1 &1589762532
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1589762534}
+  - component: {fileID: 1589762533}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1589762533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1589762532}
+  m_Enabled: 1
   m_EditorHideFlags: 0
 <<<<<<< HEAD
   m_Script: {fileID: 11500000, guid: 33367cf92d2c19c4c8ef4e4442c50018, type: 3}

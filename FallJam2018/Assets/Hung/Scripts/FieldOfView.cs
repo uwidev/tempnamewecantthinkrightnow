@@ -76,6 +76,9 @@ public class FieldOfView : MonoBehaviour {
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> Player Enemy Interaction
         this.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezePosition;
         yield return new WaitForSeconds(aimTime);
         BulletController newBullet = Instantiate(bullet, firePoint.transform.position, firePoint.transform.rotation) as BulletController;
@@ -84,6 +87,7 @@ public class FieldOfView : MonoBehaviour {
         this.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeRotationZ | RigidbodyConstraints.FreezeRotationX;
 =======
         this.GetComponent<Rigidbody>().isKinematic = true;
+<<<<<<< HEAD
 =======
         this.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezePosition;
 >>>>>>> Shooting and DYing
@@ -97,6 +101,13 @@ public class FieldOfView : MonoBehaviour {
         this.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.None;
         this.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeRotationZ | RigidbodyConstraints.FreezeRotationX;
 >>>>>>> Shooting and DYing
+=======
+        yield return new WaitForSeconds(aimTime);
+        BulletController newBullet = Instantiate(bullet, GetComponent<Rigidbody>().transform.position, GetComponent<Rigidbody>().transform.rotation) as BulletController;
+        newBullet.speed = bulletSpeed;
+        this.GetComponent<Rigidbody>().isKinematic = false;
+>>>>>>> Player Enemy Interaction
+>>>>>>> Player Enemy Interaction
     }
 
     void DrawFieldOfView()

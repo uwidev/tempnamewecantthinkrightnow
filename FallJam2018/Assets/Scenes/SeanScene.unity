@@ -1200,6 +1200,10 @@ BoxCollider:
   m_Enabled: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> Player Enemy Interaction
 =======
 =======
 >>>>>>> Player Enemy Interaction
@@ -1209,7 +1213,10 @@ Prefab:
   m_ObjectHideFlags: 0
 >>>>>>> Player Enemy Interaction
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> Player Enemy Interaction
 =======
 >>>>>>> Player Enemy Interaction
 >>>>>>> Player Enemy Interaction
@@ -1265,9 +1272,15 @@ GameObject:
   m_Layer: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: Main Camera
   m_TagString: MainCamera
 =======
+=======
+>>>>>>> Player Enemy Interaction
+=======
+  m_Name: Main Camera
+  m_TagString: MainCamera
 =======
 >>>>>>> Player Enemy Interaction
 <<<<<<< HEAD
@@ -1278,10 +1291,13 @@ GameObject:
   m_TagString: MainCamera
 >>>>>>> Player Enemy Interaction
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
   m_Name: Main Camera
   m_TagString: MainCamera
+>>>>>>> Player Enemy Interaction
+=======
 >>>>>>> Player Enemy Interaction
 >>>>>>> Player Enemy Interaction
   m_Icon: {fileID: 0}
