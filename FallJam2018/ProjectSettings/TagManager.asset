@@ -14,9 +14,11 @@ TagManager:
   - 
   - 
   - PostProcessing
-  - 
+
   - Player
-  - 
+  - NPC
+  - Obstacle
+
   - 
   - 
   - 
