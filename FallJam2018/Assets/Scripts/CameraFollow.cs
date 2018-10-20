@@ -5,6 +5,7 @@ using UnityEngine;
 public class CameraFollow : MonoBehaviour {
     public GameObject follow;
     public float dampening = 0.3f;
+    public bool tilt;
 
     private Vector3 offset;
     private Vector3 velocity = Vector3.one;
@@ -21,6 +22,7 @@ public class CameraFollow : MonoBehaviour {
         Vector3 smoothedPosition = Vector3.SmoothDamp(transform.position, finalPosition, ref velocity, dampening);
         transform.position = smoothedPosition;
 
-        //transform.LookAt(follow.transform, up);
+        if (tilt)
+            transform.LookAt(follow.transform, up);
 	}
 }
