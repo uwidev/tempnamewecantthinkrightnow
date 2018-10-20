@@ -74,7 +74,11 @@ NavMeshProjectSettings:
   - serializedVersion: 2
     agentTypeID: 0
     agentRadius: 0.3
+<<<<<<< HEAD
     agentHeight: 1
+=======
+    agentHeight: 0.33
+>>>>>>> Player Enemy Interaction
     agentSlope: 0
     agentClimb: 0.5
     ledgeDropHeight: 0
