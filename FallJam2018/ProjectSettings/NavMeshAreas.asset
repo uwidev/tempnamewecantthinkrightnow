@@ -75,7 +75,11 @@ NavMeshProjectSettings:
     agentTypeID: 0
     agentRadius: 0.3
 <<<<<<< HEAD
+<<<<<<< HEAD
     agentHeight: 1
+=======
+    agentHeight: 0.33
+>>>>>>> Player Enemy Interaction
 =======
     agentHeight: 0.33
 >>>>>>> Player Enemy Interaction
