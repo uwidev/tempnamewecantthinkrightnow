@@ -1083,7 +1083,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   viewRadius: 3.23
   viewAngle: 44
+<<<<<<< HEAD
   aimTime: 1
+=======
+  aimTime: 2
+>>>>>>> Player Enemy Interaction
   targetMask:
     serializedVersion: 2
     m_Bits: 512
@@ -1099,7 +1103,11 @@ MonoBehaviour:
   isFiring: 0
   bullet: {fileID: 114686810606498930, guid: 1c4ac885b18e55f49b33b5e361d5e2f6, type: 2}
   bulletSpeed: 10
+<<<<<<< HEAD
   firePoint: {fileID: 1864321392}
+=======
+  firePoint: {fileID: 0}
+>>>>>>> Player Enemy Interaction
 --- !u!54 &1525900237
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1182,7 +1190,10 @@ Transform:
   - {fileID: 578105173}
   - {fileID: 776598578}
   - {fileID: 656004334}
+<<<<<<< HEAD
   - {fileID: 1864321392}
+=======
+>>>>>>> Player Enemy Interaction
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 35.708, z: 0}
@@ -1192,7 +1203,11 @@ NavMeshAgent:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1525900235}
+<<<<<<< HEAD
   m_Enabled: 0
+=======
+  m_Enabled: 1
+>>>>>>> Player Enemy Interaction
   m_AgentTypeID: 0
   m_Radius: 0.5
   m_Speed: 3
@@ -1244,9 +1259,44 @@ MonoBehaviour:
   m_GameObject: {fileID: 1589762532}
   m_Enabled: 1
   m_EditorHideFlags: 0
+<<<<<<< HEAD
   m_Script: {fileID: 11500000, guid: 33367cf92d2c19c4c8ef4e4442c50018, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+=======
+  m_Script: {fileID: 11500000, guid: eb2f9ccbf20df084db123d023d6d6a07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  follow: {fileID: 1010009843}
+  agent: {fileID: 1525900244}
+--- !u!1 &1589762532
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1589762534}
+  - component: {fileID: 1589762533}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1589762533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1589762532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33367cf92d2c19c4c8ef4e4442c50018, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+>>>>>>> Player Enemy Interaction
   player: {fileID: 1010009850}
   deathParticle: {fileID: 1487694257463034, guid: 30d5e6a62df28a341bb2ac85c0602324,
     type: 2}
