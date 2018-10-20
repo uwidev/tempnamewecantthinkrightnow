@@ -1198,10 +1198,13 @@ BoxCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
+<<<<<<< HEAD
 =======
 --- !u!1001 &50958419
 Prefab:
   m_ObjectHideFlags: 0
+>>>>>>> Player Enemy Interaction
+=======
 >>>>>>> Player Enemy Interaction
   serializedVersion: 2
   m_Modification:
@@ -1254,8 +1257,13 @@ GameObject:
   - component: {fileID: 734788721}
   m_Layer: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: Wall1(R)
   m_TagString: Untagged
+=======
+  m_Name: Main Camera
+  m_TagString: MainCamera
+>>>>>>> Player Enemy Interaction
 =======
   m_Name: Main Camera
   m_TagString: MainCamera
