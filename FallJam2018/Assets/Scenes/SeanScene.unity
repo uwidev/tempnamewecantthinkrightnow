@@ -1258,6 +1258,7 @@ GameObject:
   m_Layer: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: Wall1(R)
   m_TagString: Untagged
 =======
@@ -1268,6 +1269,10 @@ GameObject:
   m_Name: Main Camera
   m_TagString: MainCamera
 >>>>>>> Player Enemy Interaction
+=======
+  m_Name: Main Camera
+  m_TagString: MainCamera
+>>>>>>> 1b94d278c0eb043eaca57d234f5d49ea3b12a620
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
