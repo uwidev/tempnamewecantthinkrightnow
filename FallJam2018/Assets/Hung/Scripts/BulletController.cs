@@ -14,6 +14,10 @@ public class BulletController : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         transform.Translate(Vector3.forward * speed * Time.deltaTime);
+<<<<<<< HEAD
         Destroy(gameObject, 3);
     }
+=======
+	}
+>>>>>>> Player Enemy Interaction
 }
