@@ -407,7 +407,7 @@ MonoBehaviour:
   m_OverrideTileSize: 0
   m_TileSize: 256
   m_OverrideVoxelSize: 0
-  m_VoxelSize: 0.1
+  m_VoxelSize: 0.16666667
   m_BuildHeightMesh: 0
   m_NavMeshData: {fileID: 23800000, guid: 26a5d61eeb14a90438b454f12d593078, type: 2}
 --- !u!1 &829639224
@@ -421,7 +421,7 @@ GameObject:
   m_Layer: 0
   m_Name: Dest3
   m_TagString: Untagged
-  m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1133,7 +1133,7 @@ GameObject:
   m_Layer: 0
   m_Name: Dest2
   m_TagString: Untagged
-  m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1304,6 +1304,8 @@ GameObject:
   - component: {fileID: 1791541343}
   - component: {fileID: 1791541342}
   - component: {fileID: 1791541346}
+  - component: {fileID: 1791541347}
+  - component: {fileID: 1791541348}
   m_Layer: 10
   m_Name: Cube
   m_TagString: Untagged
@@ -1389,7 +1391,44 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 904f5830312410940a7bd87630469f39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 5
+  moveSpeed: 10
+  gameManager: {fileID: 0}
+  enemyDeathParticle: {fileID: 0}
+  dashSpeed: 5
+  dashTime: 0.1
+  controller: {fileID: 1791541348}
+--- !u!54 &1791541347
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1791541341}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 100
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 112
+  m_CollisionDetection: 0
+--- !u!143 &1791541348
+CharacterController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1791541341}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Height: 1
+  m_Radius: 0.5
+  m_SlopeLimit: 45
+  m_StepOffset: 0.3
+  m_SkinWidth: 0.08
+  m_MinMoveDistance: 0.001
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1926619800
 GameObject:
   m_ObjectHideFlags: 0
@@ -1401,7 +1440,7 @@ GameObject:
   m_Layer: 0
   m_Name: Dest1
   m_TagString: Untagged
-  m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
