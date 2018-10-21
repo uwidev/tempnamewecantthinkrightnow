@@ -1200,19 +1200,27 @@ BoxCollider:
   m_Enabled: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> Player Enemy Interaction
+=======
+>>>>>>> 1952f04469993a0ff737403d7c87a75ae21fa766
 =======
 --- !u!1001 &50958419
 Prefab:
   m_ObjectHideFlags: 0
 >>>>>>> Player Enemy Interaction
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> Player Enemy Interaction
 >>>>>>> Player Enemy Interaction
+=======
+=======
+>>>>>>> Player Enemy Interaction
+>>>>>>> 1952f04469993a0ff737403d7c87a75ae21fa766
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
@@ -1265,6 +1273,7 @@ GameObject:
   m_Layer: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: Main Camera
   m_TagString: MainCamera
 =======
@@ -1284,6 +1293,23 @@ GameObject:
   m_TagString: MainCamera
 >>>>>>> Player Enemy Interaction
 >>>>>>> Player Enemy Interaction
+=======
+<<<<<<< HEAD
+  m_Name: Wall1(R)
+  m_TagString: Untagged
+=======
+  m_Name: Main Camera
+  m_TagString: MainCamera
+>>>>>>> Player Enemy Interaction
+=======
+  m_Name: Main Camera
+  m_TagString: MainCamera
+>>>>>>> Player Enemy Interaction
+=======
+  m_Name: Main Camera
+  m_TagString: MainCamera
+>>>>>>> 1b94d278c0eb043eaca57d234f5d49ea3b12a620
+>>>>>>> 1952f04469993a0ff737403d7c87a75ae21fa766
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
