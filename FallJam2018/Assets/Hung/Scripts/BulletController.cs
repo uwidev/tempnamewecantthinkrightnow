@@ -18,8 +18,11 @@ public class BulletController : MonoBehaviour {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> Player Enemy Interaction
+=======
+>>>>>>> 08639421c7fbe6345df2aba31c2178bd978b9739
 =======
 >>>>>>> 08639421c7fbe6345df2aba31c2178bd978b9739
         Destroy(gameObject, 3);
@@ -27,6 +30,7 @@ public class BulletController : MonoBehaviour {
 =======
 	}
 >>>>>>> Player Enemy Interaction
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -37,8 +41,13 @@ public class BulletController : MonoBehaviour {
 >>>>>>> Player Enemy Interaction
 =======
 =======
+>>>>>>> 08639421c7fbe6345df2aba31c2178bd978b9739
+=======
         Destroy(gameObject, 3);
     }
 >>>>>>> 3a212a7dce3d6edde9bdd79514aedafd6620b427
+<<<<<<< HEAD
+>>>>>>> 08639421c7fbe6345df2aba31c2178bd978b9739
+=======
 >>>>>>> 08639421c7fbe6345df2aba31c2178bd978b9739
 }

@@ -79,10 +79,13 @@ NavMeshProjectSettings:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> Player Enemy Interaction
 =======
 >>>>>>> Player Enemy Interaction
+=======
+>>>>>>> 08639421c7fbe6345df2aba31c2178bd978b9739
 =======
 >>>>>>> 08639421c7fbe6345df2aba31c2178bd978b9739
     agentHeight: 1
@@ -92,6 +95,7 @@ NavMeshProjectSettings:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     agentHeight: 0.33
 >>>>>>> Player Enemy Interaction
@@ -102,6 +106,11 @@ NavMeshProjectSettings:
     agentHeight: 0.33
 >>>>>>> Player Enemy Interaction
 >>>>>>> Player Enemy Interaction
+=======
+=======
+    agentHeight: 0.33
+>>>>>>> Player Enemy Interaction
+>>>>>>> 08639421c7fbe6345df2aba31c2178bd978b9739
 =======
 =======
     agentHeight: 0.33

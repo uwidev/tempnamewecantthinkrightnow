@@ -78,8 +78,13 @@ public class FieldOfView : MonoBehaviour {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> Player Enemy Interaction
+=======
+=======
+>>>>>>> 3a212a7dce3d6edde9bdd79514aedafd6620b427
+>>>>>>> 08639421c7fbe6345df2aba31c2178bd978b9739
 =======
 =======
 >>>>>>> 3a212a7dce3d6edde9bdd79514aedafd6620b427
@@ -94,6 +99,7 @@ public class FieldOfView : MonoBehaviour {
 =======
         this.GetComponent<Rigidbody>().isKinematic = true;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         this.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezePosition;
 >>>>>>> Shooting and DYing
@@ -113,13 +119,20 @@ public class FieldOfView : MonoBehaviour {
 =======
         this.GetComponent<Rigidbody>().isKinematic = true;
 >>>>>>> 08639421c7fbe6345df2aba31c2178bd978b9739
+=======
+>>>>>>> 08639421c7fbe6345df2aba31c2178bd978b9739
         yield return new WaitForSeconds(aimTime);
         BulletController newBullet = Instantiate(bullet, GetComponent<Rigidbody>().transform.position, GetComponent<Rigidbody>().transform.rotation) as BulletController;
         newBullet.speed = bulletSpeed;
         this.GetComponent<Rigidbody>().isKinematic = false;
 >>>>>>> Player Enemy Interaction
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> Player Enemy Interaction
+=======
+=======
+>>>>>>> 3a212a7dce3d6edde9bdd79514aedafd6620b427
+>>>>>>> 08639421c7fbe6345df2aba31c2178bd978b9739
 =======
 =======
 >>>>>>> 3a212a7dce3d6edde9bdd79514aedafd6620b427
