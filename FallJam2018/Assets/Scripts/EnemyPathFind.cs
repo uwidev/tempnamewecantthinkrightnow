@@ -52,7 +52,7 @@ public class EnemyPathFind : MonoBehaviour {
         else if (destinationTrigger.Contains(transform.position) && !isWaiting)
         {
             
-            StartCoroutine( Wait() );
+            StartCoroutine( "Wait" );
             
         }
  
