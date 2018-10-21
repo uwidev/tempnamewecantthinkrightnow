@@ -25,7 +25,7 @@ public class EnemyPathFind : MonoBehaviour {
     {
     }
 	
-    IEnumerator wait()
+    IEnumerator Wait()
     {
         isWaiting = true;
         yield return new WaitForSeconds(1);
@@ -52,7 +52,7 @@ public class EnemyPathFind : MonoBehaviour {
         else if (destinationTrigger.Contains(transform.position) && !isWaiting)
         {
             
-            StartCoroutine( wait() );
+            StartCoroutine( Wait() );
             
         }
  
