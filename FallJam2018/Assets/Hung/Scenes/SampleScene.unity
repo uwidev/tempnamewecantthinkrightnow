@@ -1084,10 +1084,14 @@ MonoBehaviour:
   viewRadius: 3.23
   viewAngle: 44
 <<<<<<< HEAD
+<<<<<<< HEAD
   aimTime: 1
 =======
   aimTime: 2
 >>>>>>> Player Enemy Interaction
+=======
+  aimTime: 1
+>>>>>>> 3a212a7dce3d6edde9bdd79514aedafd6620b427
   targetMask:
     serializedVersion: 2
     m_Bits: 512
@@ -1104,10 +1108,14 @@ MonoBehaviour:
   bullet: {fileID: 114686810606498930, guid: 1c4ac885b18e55f49b33b5e361d5e2f6, type: 2}
   bulletSpeed: 10
 <<<<<<< HEAD
+<<<<<<< HEAD
   firePoint: {fileID: 1864321392}
 =======
   firePoint: {fileID: 0}
 >>>>>>> Player Enemy Interaction
+=======
+  firePoint: {fileID: 1864321392}
+>>>>>>> 3a212a7dce3d6edde9bdd79514aedafd6620b427
 --- !u!54 &1525900237
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1191,9 +1199,13 @@ Transform:
   - {fileID: 776598578}
   - {fileID: 656004334}
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: 1864321392}
 =======
 >>>>>>> Player Enemy Interaction
+=======
+  - {fileID: 1864321392}
+>>>>>>> 3a212a7dce3d6edde9bdd79514aedafd6620b427
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 35.708, z: 0}
@@ -1204,10 +1216,14 @@ NavMeshAgent:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1525900235}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Enabled: 0
 =======
   m_Enabled: 1
 >>>>>>> Player Enemy Interaction
+=======
+  m_Enabled: 0
+>>>>>>> 3a212a7dce3d6edde9bdd79514aedafd6620b427
   m_AgentTypeID: 0
   m_Radius: 0.5
   m_Speed: 3
@@ -1260,6 +1276,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Script: {fileID: 11500000, guid: 33367cf92d2c19c4c8ef4e4442c50018, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -1297,6 +1314,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 >>>>>>> Player Enemy Interaction
+=======
+  m_Script: {fileID: 11500000, guid: 33367cf92d2c19c4c8ef4e4442c50018, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+>>>>>>> 3a212a7dce3d6edde9bdd79514aedafd6620b427
   player: {fileID: 1010009850}
   deathParticle: {fileID: 1487694257463034, guid: 30d5e6a62df28a341bb2ac85c0602324,
     type: 2}

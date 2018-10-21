@@ -15,9 +15,14 @@ public class BulletController : MonoBehaviour {
 	void Update () {
         transform.Translate(Vector3.forward * speed * Time.deltaTime);
 <<<<<<< HEAD
+<<<<<<< HEAD
         Destroy(gameObject, 3);
     }
 =======
 	}
 >>>>>>> Player Enemy Interaction
+=======
+        Destroy(gameObject, 3);
+    }
+>>>>>>> 3a212a7dce3d6edde9bdd79514aedafd6620b427
 }

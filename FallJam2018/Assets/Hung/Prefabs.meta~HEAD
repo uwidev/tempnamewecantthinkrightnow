@@ -1,16 +1,8 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
 guid: 9062d707ff6d3b94fa8c3a326a638416
-=======
-<<<<<<< HEAD:FallJam2018/Assets/Prefabs.meta
-guid: 75885ad58341fac4eb5cbac213d1ca42
-=======
-guid: 9062d707ff6d3b94fa8c3a326a638416
->>>>>>> Player Enemy Interaction:FallJam2018/Assets/Hung/Prefabs.meta
->>>>>>> Player Enemy Interaction
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
+  userData:
+  assetBundleName:
+  assetBundleVariant:

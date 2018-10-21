@@ -75,12 +75,16 @@ public class FieldOfView : MonoBehaviour {
     public IEnumerator AttackCo()
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3a212a7dce3d6edde9bdd79514aedafd6620b427
         this.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezePosition;
         yield return new WaitForSeconds(aimTime);
         BulletController newBullet = Instantiate(bullet, firePoint.transform.position, firePoint.transform.rotation) as BulletController;
         newBullet.speed = bulletSpeed;
         this.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.None;
         this.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeRotationZ | RigidbodyConstraints.FreezeRotationX;
+<<<<<<< HEAD
 =======
         this.GetComponent<Rigidbody>().isKinematic = true;
         yield return new WaitForSeconds(aimTime);
@@ -88,6 +92,8 @@ public class FieldOfView : MonoBehaviour {
         newBullet.speed = bulletSpeed;
         this.GetComponent<Rigidbody>().isKinematic = false;
 >>>>>>> Player Enemy Interaction
+=======
+>>>>>>> 3a212a7dce3d6edde9bdd79514aedafd6620b427
     }
 
     void DrawFieldOfView()
