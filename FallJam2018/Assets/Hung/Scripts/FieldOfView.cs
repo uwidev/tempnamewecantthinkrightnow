@@ -74,12 +74,69 @@ public class FieldOfView : MonoBehaviour {
 
     public IEnumerator AttackCo()
     {
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> Player Enemy Interaction
+=======
+=======
+>>>>>>> 3a212a7dce3d6edde9bdd79514aedafd6620b427
+>>>>>>> 08639421c7fbe6345df2aba31c2178bd978b9739
+=======
+=======
+>>>>>>> 3a212a7dce3d6edde9bdd79514aedafd6620b427
+>>>>>>> 08639421c7fbe6345df2aba31c2178bd978b9739
         this.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezePosition;
         yield return new WaitForSeconds(aimTime);
         BulletController newBullet = Instantiate(bullet, firePoint.transform.position, firePoint.transform.rotation) as BulletController;
         newBullet.speed = bulletSpeed;
         this.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.None;
         this.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeRotationZ | RigidbodyConstraints.FreezeRotationX;
+<<<<<<< HEAD
+=======
+        this.GetComponent<Rigidbody>().isKinematic = true;
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezePosition;
+>>>>>>> Shooting and DYing
+        yield return new WaitForSeconds(aimTime);
+        BulletController newBullet = Instantiate(bullet, firePoint.transform.position, firePoint.transform.rotation) as BulletController;
+        newBullet.speed = bulletSpeed;
+<<<<<<< HEAD
+        this.GetComponent<Rigidbody>().isKinematic = false;
+>>>>>>> Player Enemy Interaction
+=======
+        this.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.None;
+        this.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeRotationZ | RigidbodyConstraints.FreezeRotationX;
+>>>>>>> Shooting and DYing
+=======
+=======
+<<<<<<< HEAD
+=======
+        this.GetComponent<Rigidbody>().isKinematic = true;
+>>>>>>> 08639421c7fbe6345df2aba31c2178bd978b9739
+=======
+>>>>>>> 08639421c7fbe6345df2aba31c2178bd978b9739
+        yield return new WaitForSeconds(aimTime);
+        BulletController newBullet = Instantiate(bullet, GetComponent<Rigidbody>().transform.position, GetComponent<Rigidbody>().transform.rotation) as BulletController;
+        newBullet.speed = bulletSpeed;
+        this.GetComponent<Rigidbody>().isKinematic = false;
+>>>>>>> Player Enemy Interaction
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> Player Enemy Interaction
+=======
+=======
+>>>>>>> 3a212a7dce3d6edde9bdd79514aedafd6620b427
+>>>>>>> 08639421c7fbe6345df2aba31c2178bd978b9739
+=======
+=======
+>>>>>>> 3a212a7dce3d6edde9bdd79514aedafd6620b427
+>>>>>>> 08639421c7fbe6345df2aba31c2178bd978b9739
     }
 
     void DrawFieldOfView()
