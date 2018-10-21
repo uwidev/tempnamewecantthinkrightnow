@@ -6,12 +6,13 @@ public class FieldOfView : MonoBehaviour {
     public float viewRadius;
     [Range(0, 360)]
     public float viewAngle;
+    public float aimTime;
 
     public LayerMask targetMask;
     public LayerMask obstacleMask;
 
     public bool playerSeen = false;
-    public Transform playerPos;
+    public Transform player;
 
     public float meshResolution;
     public int edgeResolveIterations;
@@ -20,12 +21,17 @@ public class FieldOfView : MonoBehaviour {
     public MeshFilter viewMeshFilter;
     Mesh viewMesh;
 
+    public bool isFiring;
+    public BulletController bullet;
+    public float bulletSpeed;
+    public Transform firePoint;
+
     void Start()
     {
         viewMesh = new Mesh();
         viewMesh.name = "View Mesh";
         viewMeshFilter.mesh = viewMesh;
-
+        this.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeRotationZ | RigidbodyConstraints.FreezeRotationX;
         StartCoroutine("FindTargetsWithDelay", .2f);
     }
 
@@ -59,10 +65,21 @@ public class FieldOfView : MonoBehaviour {
                 if (!Physics.Raycast(transform.position, dirToTarget, dstToTarget, obstacleMask))
                 {
                     playerSeen = true;
-                    playerPos = target;
+                    player = target;
+                    StartCoroutine("AttackCo");
                 }
             }
         }
+    }
+
+    public IEnumerator AttackCo()
+    {
+        this.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezePosition;
+        yield return new WaitForSeconds(aimTime);
+        BulletController newBullet = Instantiate(bullet, firePoint.transform.position, firePoint.transform.rotation) as BulletController;
+        newBullet.speed = bulletSpeed;
+        this.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.None;
+        this.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeRotationZ | RigidbodyConstraints.FreezeRotationX;
     }
 
     void DrawFieldOfView()
